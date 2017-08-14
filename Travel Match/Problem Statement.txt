@@ -1,0 +1,11 @@
+In the document given on this link, you'll find extensive data of activities in 5 countries that we've picked out. They also come with some meta tags that can also be used to have an initial classification of what the activities are like. Of course, the data is never entirely clean but I'll leave it to you to take judgment calls on that.
+
+What we are looking for is for an algorithm that can identify "similar" experiences at the destination level. For example, Thailand has several beach destinations like Phuket, Hua Hin, Krabi, Koh Samui and many others. While they are all probably good destinations, once we've suggested the best of these destinations, the others are somewhat similar experiences. So, the goal is:
+
+(1) By assuming one destination as an anchor destination for each of these 5 countries, identify which other destinations offer an experience that is similar to the selected anchor destination. This will need to be done across different activity types --- to make it manageable, you can do this for Relaxation, Sight-seeing and Adventure.
+
+(2) Quantify the similarity score, e.g., Krabi is 90% similar to Koh Samui? for Relaxation?
+
+(3) Be able to identify what's unique in each destination even if there's a very similar experience otherwise. For example, while Krabi might be very similar to Koh Samui, what's the one experience that makes Krabi very different as well.
+
+https://drive.google.com/file/d/0B68_PAG8vv5aWGFQNGlzSzdSbEE/view
